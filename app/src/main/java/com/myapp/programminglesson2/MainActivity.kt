@@ -1,5 +1,6 @@
 package com.myapp.programminglesson2
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Parcelable
@@ -7,6 +8,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.BaseAdapter
+import android.widget.GridView
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
@@ -37,98 +39,144 @@ class MainActivity : AppCompatActivity() {
                 when(position){
                     0 -> {
                         add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_event
+                            title = "Event"
+                            background = R.drawable.bg_category_item
                         })
                         add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_ticket
+                            title = "SmartTicket"
+                            background = R.drawable.bg_category_item
                         })
                         add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_job
+                            title = "Jobs"
+                            background = R.drawable.bg_category_item
                         })
                         add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_housing
+                            title = "Housing"
+                            background = R.drawable.bg_category_item
                         })
                         add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_buysell
+                            title = "Buy & Sell"
+                            background = R.drawable.bg_category_item
                         })
                         add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_article
+                            title = "Articles"
+                            background = R.drawable.bg_category_item
                         })
                         add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_collection
+                            title = "Collections"
+                            background = R.drawable.bg_category_item
                         })
                         add(CategoryItem().apply {
-                            title = "1"
-                        })
-                        add(CategoryItem().apply {
-                            title = "1"
-                        })
-                        add(CategoryItem().apply {
-                            title = "1"
+                            icon = R.drawable.ic_emergency
+                            title = "Emergencies"
+                            background = R.drawable.bg_category_item
                         })
                     }
                     1 -> {
                         add(CategoryItem().apply {
-                            title = "2"
+                            title = "NearBy"
+                            icon = R.drawable.ic_nearby
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "2"
+                            title = "Newest"
+                            icon = R.drawable.ic_newest
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "2"
+                            title = "Restaurants"
+                            icon = R.drawable.ic_restaurants
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "2"
+                            title = "Bars & Clubs"
+                            icon = R.drawable.ic_bars_clubs
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "2"
+                            title = "Services"
+                            icon = R.drawable.ic_bars_clubs
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "2"
+                            title = "Community"
+                            icon = R.drawable.ic_restaurants
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "2"
+                            title = "Health"
+                            icon = R.drawable.ic_newest
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "2"
-                        })
-                        add(CategoryItem().apply {
-                            title = "2"
-                        })
-                        add(CategoryItem().apply {
-                            title = "2"
+                            title = "Education"
+                            icon = R.drawable.ic_nearby
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                     }
                     else -> {
                         add(CategoryItem().apply {
-                            title = "3"
+                            title = "Business"
+                            icon = R.drawable.ic_nearby
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "3"
+                            title = "Sports"
+                            icon = R.drawable.ic_newest
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "3"
+                            title = "Hotels"
+                            icon = R.drawable.ic_restaurants
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "3"
+                            title = "Shopping"
+                            icon = R.drawable.ic_bars_clubs
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "3"
+                            title = "Travel"
+                            icon = R.drawable.ic_bars_clubs
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "3"
+                            title = "Leisure"
+                            icon = R.drawable.ic_restaurants
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "3"
+                            title = "Creative"
+                            icon = R.drawable.ic_newest
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                         add(CategoryItem().apply {
-                            title = "3"
-                        })
-                        add(CategoryItem().apply {
-                            title = "3"
-                        })
-                        add(CategoryItem().apply {
-                            title = "3"
+                            title = "Beauty"
+                            icon = R.drawable.ic_nearby
+                            background = R.drawable.bg_category_item2
+                            titleColor = Color.parseColor("#000000")
                         })
                     }
                 }
@@ -161,7 +209,8 @@ class MainActivity : AppCompatActivity() {
             super.onViewCreated(view, savedInstanceState)
             items = arguments?.getParcelableArrayList(KEY_DATA)
             lGrid_grid.run {
-                numColumns = 5
+                numColumns = 4
+
                 adapter = CategoryAdapter().also {
                     items?.also { items ->
                         it.items.addAll(items)
@@ -186,6 +235,7 @@ class MainActivity : AppCompatActivity() {
                     holder = CategoryHolder().apply{
                         icon = view.iCategory_icon
                         title = view.iCategory_title
+                        bg = view.iCategory_bg
                     }
                     view.tag = holder
                 }else{
@@ -201,12 +251,17 @@ class MainActivity : AppCompatActivity() {
             inner class CategoryHolder {
                 lateinit var icon: ImageView
                 lateinit var title: TextView
+                lateinit var bg: View
 
                 fun update(item: CategoryItem){
                     item.icon?.also {
                         icon.setImageResource(it)
                     }
+                    item.background?.also {
+                        bg.setBackgroundResource(it)
+                    }
                     title.text = item.title
+                    title.setTextColor(item.titleColor)
                 }
             }
         }
@@ -216,5 +271,7 @@ class MainActivity : AppCompatActivity() {
     class CategoryItem : Parcelable {
         var icon:Int? = null
         var title:String = ""
+        var background:Int? = null
+        var titleColor:Int = Color.parseColor("#ffffff")
     }
 }

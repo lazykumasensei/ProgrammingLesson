@@ -5,13 +5,83 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@color/black">
 
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/black">
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_menu"
+                android:layout_marginStart="16dp"/>
+
+            <LinearLayout android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <ImageView android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ic_icon"/>
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:textColor="@color/white"
+                    android:text="SMARTSEOUL"
+                    android:layout_marginStart="8dp"/>
+            </LinearLayout>
+
+            <ImageView android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/ic_heart"
+                android:layout_marginEnd="16dp"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="16dp"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/rect_white_4dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+            <ImageView android:layout_width="16dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@drawable/ic_search"/>
+
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00ffffff"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                android:hint="Search Venues by Name"
+                android:textSize="16dp"
+                android:lines="1"
+                android:maxLines="1"
+                android:imeOptions="actionDone"
+                android:layout_marginStart="16dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="163dp"
-        android:background="#f4f4f4">
+        android:layout_height="wrap_content"
+        android:background="#f4f4f4"
+        android:paddingBottom="50dp">
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/lCategory_pager"

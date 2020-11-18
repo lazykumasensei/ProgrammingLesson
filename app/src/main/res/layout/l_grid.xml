@@ -6,6 +6,12 @@
     <GridView
         android:id="@+id/lGrid_grid"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:columnWidth="57dp"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:paddingTop="8dp"/>
 
 </LinearLayout>
