@@ -13,9 +13,13 @@ Android개발을 위한 프로그래밍 레슨2
 기본 셋팅
 - Kotlin-Extensions
 
-첫번째 클레스 레슨 포인트
-- EditText
-- Class
-- GridView (Adapter 이용)
-- ViewPager
+레슨 스케쥴
+- drawable (xxxhdpi, xxhdpi, xhdpi, shape)
 - Event
+- EditText ( text input and event)
+- Kotlin ( 기본 개념 )
+- Class (기본)
+- GridView
+- Adapter
+- ViewPager2
+- Fragment
