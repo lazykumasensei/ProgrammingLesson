@@ -1,7 +1,8 @@
 # ProgrammingLesson2
-Android개발을 위한 프로그래밍 레슨2
 
-레슨 목표
+##Android개발을 위한 프로그래밍 레슨2
+
+##레슨 목표
 - 기존에 작업한 Layout을 이용해서 메인페이지 완성
 - Class 기초 
 - 컴포넌트 (View) 기초
@@ -10,14 +11,14 @@ Android개발을 위한 프로그래밍 레슨2
 - 리스트를 구성하기 위한 Adapter
 - 페이징 처리를 위한 ViewPager2와 Fragment
 
-소요 수업
+##소요 수업
 3 ~ 5 수업
 
-기본 셋팅
+##기본 셋팅
 - Kotlin-Extensions
   https://developer.android.com/kotlin/ktx?hl=ko
 
-레슨 스케쥴
+##레슨 스케쥴
 - drawable (xxxhdpi, xxhdpi, xhdpi, shape)
   https://developer.android.com/guide/topics/resources/drawable-resource?hl=ko
   
@@ -35,6 +36,7 @@ Android개발을 위한 프로그래밍 레슨2
 - Event
 
 - Kotlin ( 기본 개념 )
+  https://developer.android.com/kotlin/learn?hl=ko
   https://kotlinlang.org/docs/tutorials/getting-started.html
   
 - Class (기본)
