@@ -1,6 +1,4 @@
-# ProgrammingLesson2
-
-## Android개발을 위한 프로그래밍 레슨2
+# Android개발을 위한 프로그래밍 레슨2
 
 ## 레슨 목표
 - 기존에 작업한 Layout을 이용해서 메인페이지 완성
