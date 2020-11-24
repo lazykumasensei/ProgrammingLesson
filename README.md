@@ -25,7 +25,7 @@
   그리고 Adapter를 구성하기 위한 ViewHolder에 대한 수업
 <img src="screenshots/lesson2.png" alt="Lesson 2 "/>
 
-## 레슨 스케쥴
+## 레슨 내용
 - drawable (xxxhdpi, xxhdpi, xhdpi, shape)   
   https://developer.android.com/guide/topics/resources/drawable-resource?hl=ko
   
