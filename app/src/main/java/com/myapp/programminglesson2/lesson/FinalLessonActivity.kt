@@ -1,20 +1,21 @@
-package com.myapp.programminglesson2
+package com.myapp.programminglesson2.lesson
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.myapp.programminglesson2.R
 import com.myapp.programminglesson2.category.CategoryPagerAdapter
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_finallesson.*
 
-class MainActivity : AppCompatActivity() {
+class FinalLessonActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_finallesson)
         initLayout()
     }
 
     private fun initLayout(){
         lCategory_pager.run {
-            adapter = CategoryPagerAdapter(this@MainActivity)
+            adapter = CategoryPagerAdapter(this@FinalLessonActivity)
         }
     }
 }
