@@ -15,6 +15,11 @@
 ## 기본 셋팅
 - Kotlin-Extensions   
   https://developer.android.com/kotlin/ktx?hl=ko
+  
+## 레슨 1 ( RecyclerView, Adapter, ViewHolder )
+- 반복되는 View를 그리기 위한 기본 컴포넌트인 RecyclerView와 내용을 구성하기 위한 Adapter   
+  그리고 Adapter를 구성하기 위한 ViewHolder에 대한 수업
+<img src="screenshots/lesson2.png" alt="Lesson 2 "/>
 
 ## 레슨 스케쥴
 - drawable (xxxhdpi, xxhdpi, xhdpi, shape)   
@@ -40,6 +45,9 @@
 - Class (기본)   
   https://kotlinlang.org/docs/reference/classes.html   
   https://kotlinlang.org/docs/tutorials/kotlin-for-py/classes.html
+
+- RecyclerView   
+  https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=ko
   
 - GridView   
   https://developer.android.com/reference/android/widget/GridView
