@@ -16,10 +16,16 @@
 - Kotlin-Extensions   
   https://developer.android.com/kotlin/ktx?hl=ko
 
-## 레슨 1 ( EditText, Event, Toast )
-- 사용자 텍스트 입력을 받는 EditText에 대한 수업   
-  EditText사용법과 데이터 접근 방법, 그리고 간단한 Class 이야기
-  
+## 레슨 1 ( Kotlin Extension, findViewById, ConstraintLayout, Button, TextView, EditText, Event, Toast )
+- Kotlin Extension을 이용한 layout의 컴포넌트(View) 접근
+- findViewById를 이용한 layout의 컴포넌트 접근
+- ConstraintLayout 기본
+- Button의 Click Event 연결
+- 컴포넌트값 변경하기
+- EditText 기본
+- Toast
+- 객체와 파라머터에 대한 가벼운 이야기 (Toast)
+
 ## 레슨 2 ( RecyclerView, Adapter, ViewHolder )
 - 반복되는 View를 그리기 위한 기본 컴포넌트인 RecyclerView와 내용을 구성하기 위한 Adapter   
   그리고 Adapter를 구성하기 위한 ViewHolder에 대한 수업

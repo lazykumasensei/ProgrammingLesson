@@ -18,7 +18,21 @@
         android:id="@+id/aLesson1_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="눌러보세요" />
+        android:text="Button 1" />
+
+    <Button
+        android:id="@+id/aLesson1_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼 2" />
+
+
+    <Button
+        android:id="@+id/aLesson1_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="버튼 3" />
+
 
     <include layout="@layout/i_lesson1"
         android:layout_width="match_parent"
