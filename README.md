@@ -22,13 +22,14 @@
 - ConstraintLayout 기본
 - Button의 Click Event 연결
 - 컴포넌트값 변경하기
-- EditText 기본
-- Toast
+- EditText 사용방법
+- Toast 사용방법
 - 객체와 파라머터에 대한 가벼운 이야기 (Toast)
 
 ## 레슨 2 ( RecyclerView, Adapter, ViewHolder )
-- 반복되는 View를 그리기 위한 기본 컴포넌트인 RecyclerView와 내용을 구성하기 위한 Adapter   
-  그리고 Adapter를 구성하기 위한 ViewHolder에 대한 수업
+- 리스트를 구성하는 가장 쉬운 방법 RecyclerView
+- Adapter란?
+- ViewHolder란?
 <img src="screenshots/lesson2.png" alt="Lesson 2 "/>
 
 ## 레슨 내용
