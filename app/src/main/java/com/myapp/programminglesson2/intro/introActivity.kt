@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.myapp.programminglesson2.R
 import com.myapp.programminglesson2.lesson.FinalLessonActivity
+import com.myapp.programminglesson2.lesson.Lesson1Activity
 import com.myapp.programminglesson2.lesson.Lesson2Activity
 import kotlinx.android.synthetic.main.activity_intro.*
 import kotlinx.android.synthetic.main.i_lesson.view.*
@@ -21,11 +22,15 @@ class introActivity : AppCompatActivity() {
         aIntro_list.run {
             setHasFixedSize(true)
             adapter = LessonAdapter(listOf(
-                    "Class 1 : RecyclerView and Adapter",
+                    "Lesson 1 : Event ( OnClickEvent ) ",
+                    "Lesson 2 : RecyclerView and Adapter",
                     "Final Result")).apply {
                 onClickItem = {
                     when(it){
-                        0->{
+                        0 -> {
+                            startActivity<Lesson1Activity>()
+                        }
+                        1 -> {
                             startActivity<Lesson2Activity>()
                         }
                         else->{
