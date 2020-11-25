@@ -16,7 +16,16 @@
 - Kotlin-Extensions   
   https://developer.android.com/kotlin/ktx?hl=ko
 
-## 레슨 스케쥴
+## 레슨 1 ( EditText, Event, Toast )
+- 사용자 텍스트 입력을 받는 EditText에 대한 수업   
+  EditText사용법과 데이터 접근 방법, 그리고 간단한 Class 이야기
+  
+## 레슨 2 ( RecyclerView, Adapter, ViewHolder )
+- 반복되는 View를 그리기 위한 기본 컴포넌트인 RecyclerView와 내용을 구성하기 위한 Adapter   
+  그리고 Adapter를 구성하기 위한 ViewHolder에 대한 수업
+<img src="screenshots/lesson2.png" alt="Lesson 2 "/>
+
+## 레슨 내용
 - drawable (xxxhdpi, xxhdpi, xhdpi, shape)   
   https://developer.android.com/guide/topics/resources/drawable-resource?hl=ko
   
@@ -40,6 +49,9 @@
 - Class (기본)   
   https://kotlinlang.org/docs/reference/classes.html   
   https://kotlinlang.org/docs/tutorials/kotlin-for-py/classes.html
+
+- RecyclerView   
+  https://developer.android.com/guide/topics/ui/layout/recyclerview?hl=ko
   
 - GridView   
   https://developer.android.com/reference/android/widget/GridView
