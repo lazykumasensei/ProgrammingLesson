@@ -42,7 +42,11 @@
 <img src="screenshots/lesson2.png" alt="Lesson 2 "/>
 
 ## 레슨 3
-**목표 : Class의 기본 (sum, sub, divid, mul)**
+**목표 : 함수와 Class(sum, sub, divid, mul)**
+- 함수란?
+- 함수 : 자료형
+- 함수 : 파라메터 (인자)
+- 함수 : 리턴형
 - class 란?
 - 맴버 변수
 - 맴버 함수
