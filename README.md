@@ -1,6 +1,7 @@
-# Android개발을 위한 프로그래밍 레슨2
+# Android입문자를 위한 프로그래밍 레슨 
 
 ## 레슨 목표
+- 화면을 구성하기 위한 Layout에 대한 이해 및 실습
 - 기존에 작업한 Layout을 이용해서 메인페이지 완성
 - Class 기초 
 - 컴포넌트 (View) 기초
@@ -9,12 +10,13 @@
 - 리스트를 구성하기 위한 Adapter
 - 페이징 처리를 위한 ViewPager2와 Fragment
 
-## 소요 수업
-- 3 ~ 5 수업
-
 ## 기본 셋팅
 - Kotlin-Extensions   
   https://developer.android.com/kotlin/ktx?hl=ko
+  
+## 레슨 0
+- Android Layout의 이론과 실습
+- 소요 : 10 class 
 
 ## 레슨 1 ( Kotlin Extension, findViewById, ConstraintLayout, Button, TextView, EditText, Event, Toast )
 - Kotlin Extension을 이용한 layout의 컴포넌트(View) 접근
