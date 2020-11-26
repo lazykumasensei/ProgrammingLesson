@@ -42,7 +42,7 @@
 <img src="screenshots/lesson2.png" alt="Lesson 2 "/>
 
 ## 레슨 3
-**목표 : Class의 기본**
+**목표 : Class의 기본 (sum, sub, divid, mul)**
 - class 란?
 - 맴버 변수
 - 맴버 함수
