@@ -9,6 +9,7 @@
 - 반복되는 디자인을 제어하고 데이터를 연결하는 방법 (GridView)
 - 리스트를 구성하기 위한 Adapter
 - 페이징 처리를 위한 ViewPager2와 Fragment
+<img src="screenshots/xmind_lesson.png" alt="Lesson 2 "/>
 
 ## 기본 셋팅
 - Kotlin-Extensions   
