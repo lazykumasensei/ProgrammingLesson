@@ -1,6 +1,7 @@
-# Android개발을 위한 프로그래밍 레슨2
+# Android입문자를 위한 프로그래밍 레슨 
 
 ## 레슨 목표
+- 화면을 구성하기 위한 Layout에 대한 이해 및 실습
 - 기존에 작업한 Layout을 이용해서 메인페이지 완성
 - Class 기초 
 - 컴포넌트 (View) 기초
@@ -9,12 +10,13 @@
 - 리스트를 구성하기 위한 Adapter
 - 페이징 처리를 위한 ViewPager2와 Fragment
 
-## 소요 수업
-- 3 ~ 5 수업
-
 ## 기본 셋팅
 - Kotlin-Extensions   
   https://developer.android.com/kotlin/ktx?hl=ko
+  
+## 레슨 0
+- Android Layout의 이론과 실습
+- 소요 : 10 class 
 
 ## 레슨 1 ( Kotlin Extension, findViewById, ConstraintLayout, Button, TextView, EditText, Event, Toast )
 - Kotlin Extension을 이용한 layout의 컴포넌트(View) 접근
@@ -22,13 +24,14 @@
 - ConstraintLayout 기본
 - Button의 Click Event 연결
 - 컴포넌트값 변경하기
-- EditText 기본
-- Toast
+- EditText 사용방법
+- Toast 사용방법
 - 객체와 파라머터에 대한 가벼운 이야기 (Toast)
 
 ## 레슨 2 ( RecyclerView, Adapter, ViewHolder )
-- 반복되는 View를 그리기 위한 기본 컴포넌트인 RecyclerView와 내용을 구성하기 위한 Adapter   
-  그리고 Adapter를 구성하기 위한 ViewHolder에 대한 수업
+- 리스트를 구성하는 가장 쉬운 방법 RecyclerView
+- Adapter란?
+- ViewHolder란?
 <img src="screenshots/lesson2.png" alt="Lesson 2 "/>
 
 ## 레슨 내용
