@@ -41,6 +41,15 @@
 - ViewHolder란?
 <img src="screenshots/lesson2.png" alt="Lesson 2 "/>
 
+## 레슨 3
+**목표 : Class의 기본**
+- class 란?
+- 맴버 변수
+- 맴버 함수
+- 상속
+- 추상화
+- 재정의 (override)
+
 ## 레슨 내용
 - drawable (xxxhdpi, xxhdpi, xhdpi, shape)   
   https://developer.android.com/guide/topics/resources/drawable-resource?hl=ko
