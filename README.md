@@ -43,11 +43,12 @@
 
 ## 레슨 3
 **목표 : 함수와 Class(sum, sub, divid, mul)**
-- 함수란?
+- [함수란?](https://kotlinlang.org/docs/reference/functions.html)
 - 함수 : 자료형
 - 함수 : 파라메터 (인자)
-- 함수 : 리턴형
-- class 란?
+- 함수 : 리턴형   
+   
+- [Class 란?](https://khan.github.io/kotlin-for-python-developers/#classes)
 - 맴버 변수
 - 맴버 함수
 - 상속
