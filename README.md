@@ -48,7 +48,7 @@
 - 함수 : 파라메터 (인자)
 - 함수 : 리턴형   
    
-- [Class 란?](https://khan.github.io/kotlin-for-python-developers/#classes)
+- [Class 란?](https://kotlinlang.org/docs/reference/classes.html)
 - 맴버 변수
 - 맴버 함수
 - 상속
