@@ -53,7 +53,9 @@
 - 맴버 함수
 - 상속
 - 추상화
-- 재정의 (override)
+- 재정의 (override)   
+스크린샷
+<img src="screenshots/lesson3.png" alt="Lesson3"/>
 
 ## 레슨 내용
 - drawable (xxxhdpi, xxhdpi, xhdpi, shape)   
