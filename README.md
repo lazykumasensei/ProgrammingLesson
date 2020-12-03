@@ -1,7 +1,7 @@
 # Android입문자를 위한 프로그래밍 레슨 
 
 ## 레슨 목표
-- 화면을 구성하기 위한 Layout에 대한 이해 및 실습
+- 화면을 구성하기 위한 XML Layout에 대한 이해 및 실습
 - 기존에 작업한 Layout을 이용해서 메인페이지 완성
 - Class 기초 
 - 컴포넌트 (View) 기초
@@ -9,16 +9,22 @@
 - 반복되는 디자인을 제어하고 데이터를 연결하는 방법 (GridView)
 - 리스트를 구성하기 위한 Adapter
 - 페이징 처리를 위한 ViewPager2와 Fragment
+<img src="screenshots/xmind_lesson.png" alt="Lesson 2 "/>
 
 ## 기본 셋팅
 - Kotlin-Extensions   
   https://developer.android.com/kotlin/ktx?hl=ko
   
 ## 레슨 0
+**목표 : 코딩없이 화면을 구성하는 방법에 대한 이해와 실습**
 - Android Layout의 이론과 실습
+- TextView, ImageView, View
+- LinearLayout, FrameLayout, RelativeLayout
+- include
 - 소요 : 10 class 
 
 ## 레슨 1 ( Kotlin Extension, findViewById, ConstraintLayout, Button, TextView, EditText, Event, Toast )
+**목표 : XML Layout과 데이터 연결 그리고 이벤트에 대한 이론과 실습**
 - Kotlin Extension을 이용한 layout의 컴포넌트(View) 접근
 - findViewById를 이용한 layout의 컴포넌트 접근
 - ConstraintLayout 기본
@@ -29,10 +35,25 @@
 - 객체와 파라머터에 대한 가벼운 이야기 (Toast)
 
 ## 레슨 2 ( RecyclerView, Adapter, ViewHolder )
-- 리스트를 구성하는 가장 쉬운 방법 RecyclerView
+**목표 : 반복되는 View를 구성하는 RecyclerView 사용방법**
+- RecyclerView란?
 - Adapter란?
 - ViewHolder란?
 <img src="screenshots/lesson2.png" alt="Lesson 2 "/>
+
+## 레슨 3
+**목표 : 함수와 Class(sum, sub, divid, mul)**
+- [함수란?](https://kotlinlang.org/docs/reference/functions.html)
+- 함수 : 자료형
+- 함수 : 파라메터 (인자)
+- 함수 : 리턴형   
+   
+- [Class 란?](https://kotlinlang.org/docs/reference/classes.html)
+- 맴버 변수
+- 맴버 함수
+- 상속
+- 추상화
+- 재정의 (override)
 
 ## 레슨 내용
 - drawable (xxxhdpi, xxhdpi, xhdpi, shape)   
