@@ -10,6 +10,7 @@ import com.myapp.programminglesson2.R
 import com.myapp.programminglesson2.lesson.FinalLessonActivity
 import com.myapp.programminglesson2.lesson.Lesson1Activity
 import com.myapp.programminglesson2.lesson.Lesson2Activity
+import com.myapp.programminglesson2.lesson.Lesson3Activity
 import kotlinx.android.synthetic.main.activity_intro.*
 import kotlinx.android.synthetic.main.i_lesson.view.*
 import org.jetbrains.anko.startActivity
@@ -24,6 +25,7 @@ class introActivity : AppCompatActivity() {
             adapter = LessonAdapter(listOf(
                     "Lesson 1 : Event ( OnClickEvent ) ",
                     "Lesson 2 : RecyclerView and Adapter",
+                    "Lesson 3 : Class의 기본",
                     "Final Result")).apply {
                 onClickItem = {
                     when(it){
@@ -32,6 +34,9 @@ class introActivity : AppCompatActivity() {
                         }
                         1 -> {
                             startActivity<Lesson2Activity>()
+                        }
+                        2-> {
+                            startActivity<Lesson3Activity>()
                         }
                         else->{
                             startActivity<FinalLessonActivity>()
